@@ -1,3 +1,14 @@
+---
+title: Meta-Analysis Data Extractor
+emoji: 📄
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: "1.52.2"
+app_file: app.py
+pinned: false
+---
+
 # Meta-Analysis Data Extractor
 
 A Streamlit app for automated paper screening and data extraction for ecological meta-analyses. Uses LLM-powered dual-extractor pipelines with automatic conflict resolution.
@@ -34,7 +45,11 @@ streamlit run app.py
 
 ## Deployment
 
-This app is designed for Streamlit Cloud. Add your API keys in Settings > Secrets.
+### Hugging Face Spaces (Recommended)
+This app is deployed on [Hugging Face Spaces](https://huggingface.co/spaces). Push this repo to a HF Space and it will auto-build.
+
+### Streamlit Cloud
+Also compatible with Streamlit Cloud Pro (free tier may have resource limits for ML dependencies).
 
 ## Author
 
